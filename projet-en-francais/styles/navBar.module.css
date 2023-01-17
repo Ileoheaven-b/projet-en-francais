@@ -1,0 +1,15 @@
+.navBarContainer {
+  width: 100vw;
+  background-color: #bfbfbf;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: min(30vw, 500px);
+}
+
+.linkHome,
+.linkOther {
+  text-decoration: none;
+  color: aliceblue;
+}
