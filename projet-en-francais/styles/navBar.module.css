@@ -12,4 +12,5 @@
 .linkOther {
   text-decoration: none;
   color: aliceblue;
+  font-size: var(--nav-btn-size);
 }

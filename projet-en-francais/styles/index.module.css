@@ -1,4 +1,39 @@
+/* Variables are defined in globals.css */
 .homeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.home {
   display: grid;
-  grid-column: 1fr 1fr 1fr;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+}
+
+.mainTitle {
+  color: var(--main-title-color);
+  font-size: var(--main-title-size);
+}
+
+.article {
+  display: grid;
+  /* Ba faci cum vrei aici, poti adopta grid-areas daca vrei */
+}
+
+.articleTitle {
+  color: var(--main-title-color);
+  font-size: var(--article-title-size);
+}
+
+.articleText {
+  color: var(--main-text-color);
+  font-size: var(--article-text-size);
+}
+
+.footer {
+  color: var(--main-text-color);
+  size: var(--footer-text-size);
 }

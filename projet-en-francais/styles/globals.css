@@ -1,3 +1,13 @@
+:root {
+  --title-color: #ffffff;
+  --text-color: #bfbfbf;
+  --main-title-size: 40px;
+  --article-title-size: 30px;
+  --article-text-size: 20px;
+  --nav-btn-size: 20px;
+  --footer-text-size: 20px;
+}
+
 html {
   height: 100vh;
   width: 100vw;
