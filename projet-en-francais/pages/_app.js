@@ -2,6 +2,8 @@ import "../styles/globals.css";
 import Head from "next/head";
 import Link from "next/link";
 import styles from "../styles/navBar.module.css";
+import React from "react";
+import Modal from "../components/modal/modal";
 
 export default function App({ Component, pageProps }) {
   return (
@@ -25,6 +27,7 @@ export default function App({ Component, pageProps }) {
         </div>
       </div>
       <Component {...pageProps} />
+      <Modal />
     </>
   );
 }
