@@ -9,31 +9,38 @@
 
 .home {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 25vw 65vw;
   grid-template-rows: auto auto;
-}
-
-.mainTitle {
-  color: var(--main-title-color);
-  font-size: var(--main-title-size);
+  grid-gap: 10px;
 }
 
 .article {
-  display: grid;
-  /* Ba faci cum vrei aici, poti adopta grid-areas daca vrei */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 3px solid var(--red-color);
+  border-radius: 18px;
+  background-color: var(--white-color);
+  padding: 8px;
+  user-select: none;
+  text-decoration: none;
+}
+
+.article:hover {
+  background-color: var(--grey-color);
 }
 
 .articleTitle {
-  color: var(--main-title-color);
+  color: var(--black-color);
   font-size: var(--article-title-size);
 }
 
 .articleText {
-  color: var(--main-text-color);
+  color: var(--black-color);
   font-size: var(--article-text-size);
 }
 
-.footer {
-  color: var(--main-text-color);
-  size: var(--footer-text-size);
+.articleImage {
+  color: var(--black-color);
+  font-size: var(--article-text-size);
 }

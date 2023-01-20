@@ -5,8 +5,14 @@ body.active-modal {
 .btn_modal {
   padding: 10px 20px;
   display: block;
-  margin: 100px auto 0;
   font-size: 18px;
+  background: var(--dark-blue-color);
+  border-color: var(--white-color);
+  border: 5px;
+  border-radius: 5px;
+  color: #ffffff;
+  margin-left: 5px;
+  font-weight: bold;
 }
 
 .modal,
@@ -29,16 +35,63 @@ body.active-modal {
   left: 50%;
   transform: translate(-50%, -50%);
   line-height: 1.4;
-  background: #f1f1f1;
+  background: var(--white-color);
+  border: 3px solid var(--red-color);
   padding: 14px 28px;
   border-radius: 3px;
-  max-width: 600px;
-  min-width: 300px;
+  max-width: 1200px;
+  min-width: 600px;
+  height: 100px;
+}
+
+.title_modal {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.input_holder_modal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input_modal {
+  width: 65%;
+  height: 30px;
+  margin-right: 1%;
+  background: var(--white-color);
+  border: 1px solid var(--red-color);
+  border-radius: 4px;
+  font-size: 28px;
+}
+
+.send_modal {
+  width: 30%;
+  height: 34px;
+  background: var(--white-color);
+  border: 1px solid var(--red-color);
+  border-radius: 4px;
+  font-size: 28px;
 }
 
 .close_modal {
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 14px;
+  right: 28px;
   padding: 5px 7px;
+  background: var(--white-color);
+  border: 1px solid var(--red-color);
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.input_modal:focus {
+  outline: none;
+}
+
+.input_modal:hover,
+.send_modal:hover,
+.close_modal:hover {
+  background-color: var(--grey-color);
 }

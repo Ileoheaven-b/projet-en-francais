@@ -19,9 +19,16 @@ export default function Modal() {
         <div className={styles.modal}>
           <div onClick={toggleModal} className={styles.overlay}></div>
           <div className={styles.modal_content}>
-            <h2>Libre de s'abonner</h2>
-            <input placeholder="exemple@gmail.com" />{" "}
-            <button onClick={toggleModal}>Je m'abonne</button>
+            <div className={styles.title_modal}>Libre de s'abonner</div>
+            <div className={styles.input_holder_modal}>
+              <input
+                className={styles.input_modal}
+                placeholder="exemple@gmail.com"
+              />{" "}
+              <button className={styles.send_modal} onClick={toggleModal}>
+                Je m'abonne
+              </button>
+            </div>
             <button className={styles.close_modal} onClick={toggleModal}>
               CLOSE
             </button>

@@ -17,17 +17,51 @@ export default function App({ Component, pageProps }) {
       <div className={styles.navBarContainer}>
         <div className={styles.navLeft}>
           <Link className={styles.linkHome} href="/">
-            PlaceHolderHome
+            Monvieur parle
           </Link>
         </div>
         <div className={styles.navRight}>
           <Link className={styles.linkOther} href="/other">
-            PlaceholderNavBTN
+            Sports
           </Link>
+          <Link className={styles.linkOther} href="/other">
+            Mode
+          </Link>
+          <Link className={styles.linkOther} href="/other">
+            Technologique
+          </Link>
+          <Link className={styles.linkOther} href="/other">
+            Cusine
+          </Link>
+          <Link className={styles.linkOther} href="/other">
+            Culture
+          </Link>
+          <Link className={styles.linkOther} href="/other">
+            Souri
+          </Link>
+          <Modal />
         </div>
       </div>
+
       <Component {...pageProps} />
-      <Modal />
+
+      <div className={styles.footerContainer}>
+        <Link className={styles.linkOther} href="/other">
+          Contact
+        </Link>
+        <Link className={styles.linkOther} href="/other">
+          Abonment
+        </Link>
+        <Link className={styles.linkOther} href="/other">
+          Informations
+        </Link>
+        <Link className={styles.linkOther} href="/other">
+          Éditeurs
+        </Link>
+        <Link className={styles.linkOther} href="/other">
+          Culture
+        </Link>
+      </div>
     </>
   );
 }
