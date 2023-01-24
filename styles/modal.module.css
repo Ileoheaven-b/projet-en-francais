@@ -15,6 +15,11 @@ body.active-modal {
   font-weight: bold;
 }
 
+.btn_modal:hover {
+  color: var(--white-transparent-color);
+  scale: 110%;
+}
+
 .modal,
 .overlay {
   width: 100vw;
