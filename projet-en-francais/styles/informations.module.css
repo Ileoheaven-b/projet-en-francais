@@ -1,4 +1,7 @@
 /* Variables are defined in globals.css */
+
+
+
 .homeContainer {
   display: flex;
   flex-direction: column;
@@ -7,43 +10,40 @@
   padding-bottom: 40px;
 }
 
-.home {
-  display: grid;
-  grid-template-columns: 25vw 65vw;
-  grid-template-rows: auto auto;
-  grid-gap: 20px;
-  grid-column-gap: 60px;
-}
 
-.article {
+.textBox {
   display: flex;
   flex-direction: column;
-  /*justify-content: space-around;*/
   border: 3px solid var(--red-color);
   border-radius: 18px;
   background-color: var(--white-color);
   padding: 8px;
   user-select: none;
   text-decoration: none;
+  width: 60vw;
+  margin: 20px;
 }
 
-.article:hover {
-  background-color: var(--white-transparent-color);
-  scale: 105%;
-}
-
-.articleTitle {
+.title {
   color: var(--black-color);
   font-size: var(--article-title-size);
   font-weight: bold;
+  text-align: center;
 }
 
-.articleText {
+.text {
   color: var(--black-color);
+  font-size: var(--article-text-size);
+  text-align: center;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--red-color);
   font-size: var(--article-text-size);
 }
 
-.articleImage {
+.image {
   color: var(--black-color);
   font-size: var(--article-text-size);
 }

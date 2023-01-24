@@ -17,26 +17,26 @@ export default function App({ Component, pageProps }) {
       <div className={styles.navBarContainer}>
         <div className={styles.navLeft}>
           <Link className={styles.linkHome} href="/">
-            Monvieur parle
+            Le mot écrit
           </Link>
         </div>
         <div className={styles.navRight}>
-          <Link className={styles.linkOther} href="/other">
+          <Link className={styles.linkOther} href="/sports">
             Sports
           </Link>
-          <Link className={styles.linkOther} href="/other">
+          <Link className={styles.linkOther} href="/mode">
             Mode
           </Link>
-          <Link className={styles.linkOther} href="/other">
+          <Link className={styles.linkOther} href="/technologique">
             Technologique
           </Link>
-          <Link className={styles.linkOther} href="/other">
+          <Link className={styles.linkOther} href="/cusine">
             Cusine
           </Link>
-          <Link className={styles.linkOther} href="/other">
+          <Link className={styles.linkOther} href="/culture">
             Culture
           </Link>
-          <Link className={styles.linkOther} href="/other">
+          <Link className={styles.linkOther} href="/souri">
             Souri
           </Link>
           <Modal />
@@ -52,7 +52,7 @@ export default function App({ Component, pageProps }) {
         <Link className={styles.linkOther} href="/other">
           Abonment
         </Link>
-        <Link className={styles.linkOther} href="/other">
+        <Link className={styles.linkOther} href="/informations">
           Informations
         </Link>
         <Link className={styles.linkOther} href="/other">

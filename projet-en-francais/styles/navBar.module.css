@@ -39,6 +39,11 @@
   font-size: var(--nav-btn-size);
 }
 
+.linkOther:hover {
+  color: #ffffff;
+  scale: 110%;
+}
+
 .bar {
   background-color: var(--dark-blue-color);
   height: 10px;
