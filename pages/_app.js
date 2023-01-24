@@ -30,8 +30,8 @@ export default function App({ Component, pageProps }) {
           <Link className={styles.linkOther} href="/technologique">
             Technologique
           </Link>
-          <Link className={styles.linkOther} href="/cusine">
-            Cusine
+          <Link className={styles.linkOther} href="/cuisine">
+            Cuisine
           </Link>
           <Link className={styles.linkOther} href="/culture">
             Culture
@@ -47,19 +47,13 @@ export default function App({ Component, pageProps }) {
 
       <div className={styles.footerContainer}>
         <Link className={styles.linkOther} href="/other">
-          Contact
-        </Link>
-        <Link className={styles.linkOther} href="/other">
           Abonment
         </Link>
         <Link className={styles.linkOther} href="/informations">
           Informations
         </Link>
-        <Link className={styles.linkOther} href="/other">
+        <Link className={styles.linkOther} href="/editeurs">
           Éditeurs
-        </Link>
-        <Link className={styles.linkOther} href="/other">
-          Culture
         </Link>
       </div>
     </>
