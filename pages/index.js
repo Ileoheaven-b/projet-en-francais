@@ -1,31 +1,39 @@
 import styles from "../styles/index.module.css";
 import Link from "next/link";
 import Image from "next/image";
-import intelligence from "./imagesFrontPage/ArtificialIntelligence.png";
-import placeholderImage from "./imagesFrontPage/PlaceholderImage.jpg";
+import thumbnail1 from "./imagesFrontPage/RobotImage2.png";
 
 export default function Home() {
   return (
     <>
       <div className={styles.homeContainer}>
         <div className={styles.home}>
-          <Link className={styles.article} href="/other">
-            <div className={styles.articleTitle}>Placeholder Title</div>
-            <div className={styles.articleText}>
-              Lorem ipsum dolor parte mare de calamare din marea cea tare si
-              bate vantu trece frunza Lorem ipsum dolor parte mare de calamare
-              din marea cea tare si bate vantu trece frunzaLorem ipsum dolor
-              parte mare de calamare din marea cea tare si bate vantu trece
-              frunzaLorem ipsum dolor parte mare de calamare din marea cea tare
-              si bate vantu trece frunzaLorem ipsum dolor parte mare de calamare
-              din marea cea tare si bate vantu trece frunzaLorem ipsum dolor
-              parte mare de calamare din marea cea tare si bate vantu trece
-              frunzaLorem ipsum dolor parte mare de calamare din marea cea tare
-              si bate vantu trece frunza
+          <Link className={styles.articleSide} href="/other">
+            <div>
+              <div className={styles.articleTitle}>Placeholder Title</div>
+              <div className={styles.articleText}>
+                Lorem ipsum dolor parte mare de calamare din marea cea tare si
+                bate vantu trece frunza Lorem ipsum dolor parte mare de calamare
+                din marea cea tare si bate vantu trece frunzaLorem ipsum dolor
+                parte mare de calamare din marea cea tare si bate vantu trece
+                frunzaLorem ipsum dolor parte mare de calamare din marea cea
+                tare si bate vantu trece frunzaLorem ipsum dolor parte mare de
+                calamare din marea cea tare si bate vantu trece frunzaLorem
+                ipsum dolor parte mare de calamare din marea cea tare si bate
+                vantu trece frunzaLorem ipsum dolor parte mare de calamare din
+                marea cea tare si bate vantu trece frunza
+              </div>
             </div>
+
+            <hr className={styles.bar}></hr>
           </Link>
 
-          <Link className={styles.article} href="/articles/technologique/articleAI">
+          <hr className={styles.verticalBar}></hr>
+
+          <Link
+            className={styles.articleCenter}
+            href="/articles/technologique/articleAI"
+          >
             <div className={styles.articleTitle}>
               ChatGPT : Le partenaire d'étude intelligent
             </div>
@@ -37,28 +45,35 @@ export default function Home() {
             </div>
             <Image
               className={styles.articleImage}
-              src={intelligence}
+              src={thumbnail1}
               alt="Image d'une IA"
               layout="responsive"
             />
           </Link>
 
-          <Link className={styles.article} href="/other">
-            <div className={styles.articleTitle}>Placeholder Title</div>
-            <div className={styles.articleText}>
-              Lorem ipsum dolor parte mare de calamare din marea cea tare si
-              bate vantu trece frunzaLorem ipsum dolor parte mare de calamare
-              din marea cea tare si bate vantu trece frunzaLorem ipsum dolor
-              parte mare de calamare din marea cea tare si bate vantu trece
-              frunzaLorem ipsum dolor parte mare de calamare din marea cea tare
-              si bate vantu trece frunzaLorem ipsum dolor parte mare de calamare
-              din marea cea tare si bate vantu trece frunzaLorem ipsum dolor
-              parte mare de calamare din marea cea tare si bate vantu trece
-              frunza
+          <Link className={styles.articleSide} href="/other">
+            <div>
+              <div className={styles.articleTitle}>Placeholder Title</div>
+              <div className={styles.articleText}>
+                Lorem ipsum dolor parte mare de calamare din marea cea tare si
+                bate vantu trece frunza Lorem ipsum dolor parte mare de calamare
+                din marea cea tare si bate vantu trece frunzaLorem ipsum dolor
+                parte mare de calamare din marea cea tare si bate vantu trece
+                frunzaLorem ipsum dolor parte mare de calamare din marea cea
+                tare si bate vantu trece frunzaLorem ipsum dolor parte mare de
+                calamare din marea cea tare si bate vantu trece frunzaLorem
+                ipsum dolor parte mare de calamare din marea cea tare si bate
+                vantu trece frunzaLorem ipsum dolor parte mare de calamare din
+                marea cea tare si bate vantu trece frunza
+              </div>
             </div>
+
+            <hr className={styles.bar}></hr>
           </Link>
 
-          <Link className={styles.article} href="/other">
+          <hr className={styles.verticalBar}></hr>
+
+          <Link className={styles.articleCenter} href="/other">
             <div className={styles.articleTitle}>Placeholder Title</div>
             <div className={styles.articleText}>
               Lorem ipsum dolor parte mare de calamare din marea cea tare si

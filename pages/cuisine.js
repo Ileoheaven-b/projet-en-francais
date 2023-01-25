@@ -23,7 +23,7 @@ export default function Cuisine() {
           </Link>
 
           <Link className={styles.article} href="/other">
-            <div className={styles.articleTitle}>eg</div>
+            <div className={styles.articleTitle}>Fishe</div>
             <div className={styles.articleText}>
               Lorem ipsum dolor parte mare de calamare din marea cea tare si
               bate vantu trece frunza Lorem ipsum dolor parte mare de calamare

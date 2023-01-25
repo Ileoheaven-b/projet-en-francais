@@ -6,13 +6,17 @@
   --black-color: #171818;
   --blue-color: #2d46a0;
   --dark-blue-color: #233575;
-  --red-color: #772e2e94;
+  --red-color: #9c7171;
+  --transparent: #ffffff00;
 
   --nav-title-size: 40px;
   --nav-btn-size: 20px;
 
   --article-title-size: 30px;
+  --article-title-size-2: 40px;
   --article-text-size: 20px;
+  --article-text-size-2: 25px;
+  --article-image-text-size: 15px;
 
   --footer-text-size: 20px;
 }

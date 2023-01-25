@@ -7,7 +7,7 @@ export default function Mode() {
       <div className={styles.homeContainer}>
         <ul className={styles.list}>
           <Link className={styles.article} href="/other">
-            <div className={styles.articleTitle}>Shous et pats</div>
+            <div className={styles.articleTitle}>WIP</div>
             <div className={styles.articleText}>
               Lorem ipsum dolor parte mare de calamare din marea cea tare si
               bate vantu trece frunza Lorem ipsum dolor parte mare de calamare
@@ -23,7 +23,7 @@ export default function Mode() {
           </Link>
 
           <Link className={styles.article} href="/other">
-            <div className={styles.articleTitle}>her</div>
+            <div className={styles.articleTitle}>WIP</div>
             <div className={styles.articleText}>
               Lorem ipsum dolor parte mare de calamare din marea cea tare si
               bate vantu trece frunza Lorem ipsum dolor parte mare de calamare
@@ -37,7 +37,6 @@ export default function Mode() {
               si bate vantu trece frunza
             </div>
           </Link>
-
         </ul>
       </div>
     </>
