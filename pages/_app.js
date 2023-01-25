@@ -86,8 +86,10 @@ export default function App({ Component, pageProps }) {
         </div>
 
         <div className={stylesMobile.navHamburgerSide}>
-          
+
         </div>
+
+        <div className={stylesMobile.empty}></div>
 
         <Component {...pageProps} />
 

@@ -20,7 +20,8 @@
   padding-right: 5%;
   width: 40px;
   height: 30px;
-  filter: invert(91%) sepia(0%) saturate(2474%) hue-rotate(40deg) brightness(109%) contrast(91%);
+  filter: invert(91%) sepia(0%) saturate(2474%) hue-rotate(40deg)
+    brightness(109%) contrast(91%);
 }
 
 .navHamburgerSide {
@@ -34,6 +35,13 @@
   align-items: center;
   justify-content: left;
   position: fixed;
+  top: 87px;
+  left: -60vw;
+  transition: 0.3s;
+}
+
+.empty {
+  height: 85px;
 }
 
 .navTitle {
