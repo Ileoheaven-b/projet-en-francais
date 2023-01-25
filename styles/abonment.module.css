@@ -1,0 +1,93 @@
+/* Variables are defined in globals.css */
+
+.casete {
+  display: flex;
+  justify-content: space-evenly;
+}
+.month {
+  font-size: 25px;
+  padding-left: 110px;
+  padding-top: 25px;
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0px;
+  padding-top: 25px;
+}
+
+.textBox {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid var(--red-color);
+  border-radius: 18px;
+  background-color: var(--white-color);
+  padding: 8px;
+  padding-top: 20px;
+  user-select: none;
+  text-decoration: none;
+  height: 550px;
+  width: 400px;
+}
+.priceTag {
+  width: 50px;
+  font-size: 50px;
+  color: green;
+  border: 0px;
+  padding: 0px;
+}
+.title {
+  color: var(--black-color);
+  font-size: var(--article-title-size);
+  font-weight: bold;
+  text-align: center;
+}
+
+.text {
+  color: var(--black-color);
+  font-size: var(--article-text-size);
+  text-align: center;
+}
+
+.textInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 25px;
+  padding: 10px;
+  padding-left: 15px;
+  padding-top: 25px;
+  height: 150px;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--red-color);
+  font-size: var(--article-text-size);
+}
+
+.image {
+  color: var(--black-color);
+  font-size: var(--article-text-size);
+}
+
+.advertise {
+  padding-top: 25px;
+  font-size: 25px;
+  color: red;
+}
+
+.bar {
+  background-color: var(--red-color);
+  height: 1px;
+  width: 100%;
+  border: 0px;
+  margin-top: 10px;
+}
+
+.pay {
+  padding-top: 15px;
+  font-size: 25px;
+}

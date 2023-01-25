@@ -46,8 +46,8 @@ export default function App({ Component, pageProps }) {
       <Component {...pageProps} />
 
       <div className={styles.footerContainer}>
-        <Link className={styles.linkOther} href="/other">
-          Abonment
+        <Link className={styles.linkOther} href="/abonment">
+          Abonnement
         </Link>
         <Link className={styles.linkOther} href="/informations">
           Informations
