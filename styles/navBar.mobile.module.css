@@ -1,0 +1,78 @@
+.navBarContainer {
+  overflow: hidden;
+  width: 100vw;
+  background-color: var(--dark-blue-color);
+  padding-top: 20px;
+  padding-bottom: 20px !important;
+  display: flex;
+  justify-content: left;
+  gap: min(15vw, 10px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  z-index: 2;
+  position: fixed;
+}
+
+.navHamburgerButton {
+  color: var(--white-color);
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 40px;
+  height: 30px;
+  filter: invert(91%) sepia(0%) saturate(2474%) hue-rotate(40deg) brightness(109%) contrast(91%);
+}
+
+.navHamburgerSide {
+  height: 100vh;
+  width: 60vw;
+  background-color: var(--darker-blue-color);
+  display: flex;
+  gap: min(15vw, 10px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  position: fixed;
+}
+
+.navTitle {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.linkHome {
+  text-decoration: none;
+  color: var(--white-color);
+  font-size: var(--nav-title-size);
+}
+
+.linkOther {
+  text-decoration: none;
+  color: var(--white-color);
+  background-color: var(--blue-color);
+  font-size: var(--nav-btn-size);
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.bar {
+  background-color: var(--dark-blue-color);
+  height: 10px;
+  width: 100vw;
+  border: 0px;
+  margin: 0px;
+}
+
+.footerContainer {
+  width: 100vw;
+  background-color: var(--dark-blue-color);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: min(15vw, 30px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

@@ -6,6 +6,7 @@
   --black-color: #171818;
   --blue-color: #2d46a0;
   --dark-blue-color: #233575;
+  --darker-blue-color: #162558;
   --red-color: #9c7171;
   --transparent: #ffffff00;
 
@@ -26,6 +27,7 @@ html {
   width: 100vw;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 body {

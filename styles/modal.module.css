@@ -46,7 +46,7 @@ body.active-modal {
   border-radius: 3px;
   max-width: 1200px;
   min-width: 600px;
-  height: 100px;
+  height: 140px;
 }
 
 .title_modal {
@@ -59,6 +59,17 @@ body.active-modal {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+}
+
+.choice_modal {
+  width: 66%;
+  height: 30px;
+  margin-right: 1%;
+  background: var(--white-color);
+  border: 1px solid var(--red-color);
+  border-radius: 4px;
+  font-size: 28px;
+  margin-bottom: 10px;
 }
 
 .input_modal {
