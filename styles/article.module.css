@@ -62,12 +62,15 @@
 .imageContainer {
   display: flex;
   flex-direction: column;
-  width: 200vw;
+  width: 100%;
+  height: 100%;
 }
 
 .image {
   color: var(--black-color);
   font-size: var(--article-text-size-2);
+  width: 100%;
+  height: 100%;
 }
 
 .imageSmallText {
