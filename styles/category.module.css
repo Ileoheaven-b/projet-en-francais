@@ -67,7 +67,8 @@
 .articleImage {
   color: var(--black-color);
   font-size: var(--article-text-size);
-  height: fit-content;
+  height: 100%;
+  width: 100%;
 }
 
 .empty {

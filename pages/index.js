@@ -6,6 +6,8 @@ import Link from "next/link";
 import Image from "next/image";
 import thumbnail1 from "./imagesFrontPage/RobotImage2.png";
 import thumbnail2 from "./imagesFrontPage/Luceafar.jpg";
+import thumbnail3 from "./imagesFrontPage/Irish.png";
+import thumbnail4 from "./imagesFrontPage/Pasta2.jpg";
 
 export default function Home() {
   const ComponentChange = () => {
@@ -59,21 +61,25 @@ export default function Home() {
               />
             </Link>
 
-            <Link className={styles.articleSide} href="/other">
+            <Link
+              className={styles.articleSide}
+              href="/articles/libre/articleAnniversaire"
+            >
               <div>
-                <div className={styles.articleTitle}>Placeholder Title</div>
-                <div className={styles.articleText}>
-                  Lorem ipsum dolor parte mare de calamare din marea cea tare si
-                  bate vantu trece frunza Lorem ipsum dolor parte mare de
-                  calamare din marea cea tare si bate vantu trece frunzaLorem
-                  ipsum dolor parte mare de calamare din marea cea tare si bate
-                  vantu trece frunzaLorem ipsum dolor parte mare de calamare din
-                  marea cea tare si bate vantu trece frunzaLorem ipsum dolor
-                  parte mare de calamare din marea cea tare si bate vantu trece
-                  frunzaLorem ipsum dolor parte mare de calamare din marea cea
-                  tare si bate vantu trece frunzaLorem ipsum dolor parte mare de
-                  calamare din marea cea tare si bate vantu trece frunza
+                <div className={styles.articleTitle}>
+                  Où pouvez-vous avoir un anniversaire?
                 </div>
+                <div className={styles.articleText}>
+                  CRAZY PUB EST UN ENDROIT PARFAIT POUR LES FÊTES
+                  D'ANNIVERSAIRE. LES LA VUE EST SUPERBE ET LE MENU EST BON ET À
+                  UN PRIX AVANTAGEUX...
+                </div>
+                <Image
+                  className={styles.articleImage}
+                  src={thumbnail3}
+                  alt="Image de la "
+                  layout="responsive"
+                />
               </div>
 
               <hr className={styles.bar}></hr>
@@ -81,19 +87,23 @@ export default function Home() {
 
             <hr className={styles.verticalBar}></hr>
 
-            <Link className={styles.articleCenter} href="/other">
-              <div className={styles.articleTitle}>Placeholder Title</div>
-              <div className={styles.articleText}>
-                Lorem ipsum dolor parte mare de calamare din marea cea tare si
-                bate vantu trece frunzaLorem ipsum dolor parte mare de calamare
-                din marea cea tare si bate vantu trece frunzaLorem ipsum dolor
-                parte mare de calamare din marea cea tare si bate vantu trece
-                frunzaLorem ipsum dolor parte mare de calamare din marea cea
-                tare si bate vantu trece frunzaLorem ipsum dolor parte mare de
-                calamare din marea cea tare si bate vantu trece frunzaLorem
-                ipsum dolor parte mare de calamare din marea cea tare si bate
-                vantu trece frunza
+            <Link
+              className={styles.articleCenter}
+              href="/articles/cuisine/articleFeta"
+            >
+              <div className={styles.articleTitle}>
+                ON MANGE VITE ET PAS CHER!
               </div>
+              <div className={styles.articleText}>
+                Vous n'en avez pas marre des fast food malsains ? Découvrez une
+                recette saine de poitrine de poulet grillée.
+              </div>
+              <Image
+                className={styles.articleImage}
+                src={thumbnail4}
+                alt="Image de la feta"
+                layout="responsive"
+              />
             </Link>
           </div>
         </div>
@@ -137,6 +147,45 @@ export default function Home() {
                 className={stylesMobile.articleImage}
                 src={thumbnail2}
                 alt="Image d'une spectacle"
+                layout="responsive"
+              />
+            </Link>
+
+            <Link
+              className={stylesMobile.articleCenter}
+              href="/articles/libre/articleAnniversaire"
+            >
+              <div className={stylesMobile.articleTitle}>
+                Où pouvez-vous avoir un anniversaire?
+              </div>
+              <div className={stylesMobile.articleText}>
+                CRAZY PUB EST UN ENDROIT PARFAIT POUR LES FÊTES D'ANNIVERSAIRE.
+                LES LA VUE EST SUPERBE ET LE MENU EST BON ET À UN PRIX
+                AVANTAGEUX...
+              </div>
+              <Image
+                className={stylesMobile.articleImage}
+                src={thumbnail3}
+                alt="Image d'une spectacle"
+                layout="responsive"
+              />
+            </Link>
+
+            <Link
+              className={stylesMobile.articleCenter}
+              href="/articles/cuisine/articleFeta"
+            >
+              <div className={stylesMobile.articleTitle}>
+                ON MANGE VITE ET PAS CHER!
+              </div>
+              <div className={stylesMobile.articleText}>
+                Vous n'en avez pas marre des fast food malsains ? Découvrez une
+                recette saine de poitrine de poulet grillée.
+              </div>
+              <Image
+                className={stylesMobile.articleImage}
+                src={thumbnail4}
+                alt="Image de la feta"
                 layout="responsive"
               />
             </Link>

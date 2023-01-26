@@ -50,10 +50,11 @@ export default function Editeurs() {
           <div className={styles.listBox}>
             <div className={styles.title}>Catégorie cuisine</div>
             <ul>
-              <li className={styles.text}>Nume Prenume</li>
-              <li className={styles.text}>Nume Prenume</li>
-              <li className={styles.text}>Nume Prenume</li>
-              <li className={styles.text}>Nume Prenume</li>
+              <li className={styles.text}>Ciobanasu Bogdan</li>
+              <li className={styles.text}>Puscasu Eduard</li>
+              <li className={styles.text}>Vatamanu Serban</li>
+              <li className={styles.text}>Sovan Maria</li>
+              <li className={styles.text}>Ionita Rahela</li>
             </ul>
           </div>
           <div className={styles.listBox}>
