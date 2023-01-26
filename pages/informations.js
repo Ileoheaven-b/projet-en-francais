@@ -8,24 +8,24 @@ export default function Informations() {
         <div className={styles.textBox}>
           <div className={styles.title}>Qui? Qu'est-ce que le? Pourquoi?</div>
           <div className={styles.text}>
-            Lorem ipsum dolor parte mare de calamare din marea cea tare si bate
-            vantu trece frunza Lorem ipsum dolor parte mare de calamare din
-            marea cea tare si bate vantu trece frunzaLorem ipsum dolor parte
-            mare de calamare din marea cea tare si bate vantu trece frunzaLorem
-            ipsum dolor parte mare de calamare din marea cea tare si bate vantu
-            trece frunzaLorem ipsum dolor parte mare de calamare din marea cea
-            tare si bate vantu trece frunzaLorem ipsum dolor parte mare de
-            calamare din marea cea tare si bate vantu trece frunzaLorem ipsum
-            dolor parte mare de calamare din marea cea tare si bate vantu trece
-            frunza
+            Il s'agit d'un projet réalisé en une semaine où notre classe était
+            divisée en groupes, chacun devant rédiger des articles pour une
+            rubrique de ce journal. Lors de la planification du projet, nous
+            avons trouvé une idée intéressante pour créer une version numérique
+            de ce journal, ainsi cette page Web est née. Il est tout à fait
+            possible que je continue à améliorer ce site, il y a encore de
+            nombreux aspects qui peuvent être améliorés et dans certains cas
+            corrigés. Tous les articles sont rédigés par les équipes
+            éditoriales, que vous pouvez retrouver plus bas dans la page à côté
+            des informations.
           </div>
         </div>
 
         <div className={styles.textBox}>
           <div className={styles.title}>Contact</div>
           <div className={styles.text}>
-            Email de la classe: example.email.classe@gmail.com <br></br> Github
-            des créateurs: <br></br>{" "}
+            Email de la classe: example.email@gmail.com <br></br> Github des
+            créateurs: <br></br>{" "}
             <a className={styles.link} href="https://github.com/distroierONE">
               Serban
             </a>{" "}

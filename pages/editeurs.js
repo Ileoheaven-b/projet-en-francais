@@ -28,7 +28,6 @@ export default function Editeurs() {
               <li className={styles.text}>Nume Prenume</li>
             </ul>
           </div>
-
           <div className={styles.listBox}>
             <div className={styles.title}>Catégorie technologique</div>
             <ul>
@@ -38,7 +37,6 @@ export default function Editeurs() {
               <li className={styles.text}>Cotovanu Teodor</li>
             </ul>
           </div>
-
           <div className={styles.listBox}>
             <div className={styles.title}>Catégorie mode</div>
             <ul>
@@ -49,7 +47,6 @@ export default function Editeurs() {
               <li className={styles.text}>Nume Prenume</li>
             </ul>
           </div>
-
           <div className={styles.listBox}>
             <div className={styles.title}>Catégorie cuisine</div>
             <ul>
@@ -59,24 +56,23 @@ export default function Editeurs() {
               <li className={styles.text}>Nume Prenume</li>
             </ul>
           </div>
-
           <div className={styles.listBox}>
             <div className={styles.title}>Catégorie culture</div>
             <ul>
-              <li className={styles.text}>Nume Prenume</li>
-              <li className={styles.text}>Nume Prenume</li>
-              <li className={styles.text}>Nume Prenume</li>
-              <li className={styles.text}>Nume Prenume</li>
+              <li className={styles.text}>Federovici Mari</li>
+              <li className={styles.text}>Gavrilet Teodora</li>
+              <li className={styles.text}>Oboroceanu Bianca</li>
+              <li className={styles.text}>Sanautanu Ana</li>
+              <li className={styles.text}>Negrii Mara</li>
+              <li className={styles.text}>Cerep Sabina</li>
             </ul>
           </div>
-
           <div className={styles.listBox}>
-            <div className={styles.title}>Catégorie souri</div>
+            <div className={styles.title}>Catégorie temps libre</div>
             <ul>
-              <li className={styles.text}>Nume Prenume</li>
-              <li className={styles.text}>Nume Prenume</li>
-              <li className={styles.text}>Nume Prenume</li>
-              <li className={styles.text}>Nume Prenume</li>
+              <li className={styles.text}>Dumitriu David</li>
+              <li className={styles.text}>Popa Petru</li>
+              <li className={styles.text}>Maghiar Lucian</li>
             </ul>
           </div>
         </div>

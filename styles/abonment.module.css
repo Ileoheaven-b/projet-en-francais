@@ -12,7 +12,9 @@
 
 .casete {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
+  gap: 2vw;
 }
 .month {
   font-size: 25px;

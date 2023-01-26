@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import { useMediaQuery, useMediaQueries } from "@react-hook/media-query";
+import { useState, useEffect } from "react";
 import styles from "../styles/navBar.module.css";
 import stylesMobile from "../styles/navBar.mobile.module.css";
 import React from "react";
@@ -10,6 +11,131 @@ import Modal from "../components/modal/modal";
 import menuSvg from "./imagesFrontPage/svgs/menu.svg";
 
 export default function App({ Component, pageProps }) {
+  const [navBarToggle, changeNavBarToggle] = useState(false);
+
+  const ChangeNavState = () => {
+    switch (navBarToggle) {
+      case true:
+        return (
+          <>
+            <div className={stylesMobile.navHamburgerSideOpen}>
+              <Link
+                className={stylesMobile.linkHamburger}
+                onClick={() => changeNavBarToggle(!navBarToggle)}
+                href="/sports"
+              >
+                Sports
+              </Link>
+              <hr className={stylesMobile.dividerBar}></hr>
+              <Link
+                className={stylesMobile.linkHamburger}
+                onClick={() => changeNavBarToggle(!navBarToggle)}
+                href="/mode"
+              >
+                Mode
+              </Link>
+              <hr className={stylesMobile.dividerBar}></hr>
+              <Link
+                className={stylesMobile.linkHamburger}
+                onClick={() => changeNavBarToggle(!navBarToggle)}
+                href="/technologique"
+              >
+                Technologique
+              </Link>
+              <hr className={stylesMobile.dividerBar}></hr>
+              <Link
+                className={stylesMobile.linkHamburger}
+                onClick={() => changeNavBarToggle(!navBarToggle)}
+                href="/cuisine"
+              >
+                Cuisine
+              </Link>
+              <hr className={stylesMobile.dividerBar}></hr>
+              <Link
+                className={stylesMobile.linkHamburger}
+                onClick={() => changeNavBarToggle(!navBarToggle)}
+                href="/culture"
+              >
+                Culture
+              </Link>
+              <hr className={stylesMobile.dividerBar}></hr>
+              <Link
+                className={stylesMobile.linkHamburger}
+                onClick={() => changeNavBarToggle(!navBarToggle)}
+                href="/libre"
+              >
+                Temps libre
+              </Link>
+              <hr className={stylesMobile.dividerBar}></hr>
+
+              <div className={stylesMobile.smallEmpty}></div>
+              <Modal />
+            </div>
+            <div
+              className={stylesMobile.background}
+              onClick={() => changeNavBarToggle(!navBarToggle)}
+            ></div>
+          </>
+        );
+      case false:
+        return (
+          <div className={stylesMobile.navHamburgerSide}>
+            <Link
+              className={stylesMobile.linkHamburger}
+              onClick={() => changeNavBarToggle(!navBarToggle)}
+              href="/sports"
+            >
+              Sports
+            </Link>
+            <hr className={stylesMobile.dividerBar}></hr>
+            <Link
+              className={stylesMobile.linkHamburger}
+              onClick={() => changeNavBarToggle(!navBarToggle)}
+              href="/mode"
+            >
+              Mode
+            </Link>
+            <hr className={stylesMobile.dividerBar}></hr>
+            <Link
+              className={stylesMobile.linkHamburger}
+              onClick={() => changeNavBarToggle(!navBarToggle)}
+              href="/technologique"
+            >
+              Technologique
+            </Link>
+            <hr className={stylesMobile.dividerBar}></hr>
+            <Link
+              className={stylesMobile.linkHamburger}
+              onClick={() => changeNavBarToggle(!navBarToggle)}
+              href="/cuisine"
+            >
+              Cuisine
+            </Link>
+            <hr className={stylesMobile.dividerBar}></hr>
+            <Link
+              className={stylesMobile.linkHamburger}
+              onClick={() => changeNavBarToggle(!navBarToggle)}
+              href="/culture"
+            >
+              Culture
+            </Link>
+            <hr className={stylesMobile.dividerBar}></hr>
+            <Link
+              className={stylesMobile.linkHamburger}
+              onClick={() => changeNavBarToggle(!navBarToggle)}
+              href="/libre"
+            >
+              Temps libre
+            </Link>
+            <hr className={stylesMobile.dividerBar}></hr>
+
+            <div className={stylesMobile.smallEmpty}></div>
+            <Modal />
+          </div>
+        );
+    }
+  };
+
   const ComponentChange = () => {
     const matches = useMediaQuery("only screen and (min-width: 1025px)");
     return matches ? (
@@ -42,8 +168,8 @@ export default function App({ Component, pageProps }) {
             <Link className={styles.linkOther} href="/culture">
               Culture
             </Link>
-            <Link className={styles.linkOther} href="/souri">
-              Souri
+            <Link className={styles.linkOther} href="/libre">
+              Temps libre
             </Link>
             <Modal />
           </div>
@@ -76,18 +202,22 @@ export default function App({ Component, pageProps }) {
             className={stylesMobile.navHamburgerButton}
             src={menuSvg}
             alt="Menu"
+            onClick={() => changeNavBarToggle(!navBarToggle)}
           />
-
           <div className={stylesMobile.navTitle}>
-            <Link className={stylesMobile.linkHome} href="/">
+            <Link
+              className={stylesMobile.linkHome}
+              onClick={() =>
+                changeNavBarToggle(navBarToggle ? !navBarToggle : nil)
+              }
+              href="/"
+            >
               Le mot écrit
             </Link>
           </div>
         </div>
 
-        <div className={stylesMobile.navHamburgerSide}>
-
-        </div>
+        <ChangeNavState />
 
         <div className={stylesMobile.empty}></div>
 

@@ -29,8 +29,14 @@
 
 .title {
   color: var(--black-color);
-  font-size: var(--article-title-size-2);
+  font-size: var(--article-title-size-3);
   font-weight: bold;
+  text-align: center;
+}
+
+.subTitle {
+  color: var(--black-color);
+  font-size: var(--article-title-size-2);
   text-align: center;
 }
 

@@ -26,11 +26,9 @@
 }
 
 .gridBox {
-  display: grid;
-  grid-template-columns: 20vw 20vw 20vw;
-  grid-template-rows: auto auto;
-  grid-row-gap: 20px;
-  grid-column-gap: 1vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   border: 3px solid var(--red-color);
   border-radius: 18px;
   background-color: var(--white-transparent-color);
@@ -43,6 +41,7 @@
 
 .listBox {
   display: flex;
+  flex: 1 0 21%; 
   flex-direction: column;
   border: 3px solid var(--red-color);
   border-radius: 18px;

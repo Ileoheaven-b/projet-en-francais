@@ -33,6 +33,21 @@
   margin: 20px;
 }
 
+.articleHorizontal {
+  display: flex;
+  flex-direction: row;
+  /*justify-content: space-around;*/
+  align-items: center;
+  border: 3px solid var(--red-color);
+  border-radius: 18px;
+  background-color: var(--white-color);
+  padding: 8px;
+  user-select: none;
+  text-decoration: none;
+  width: 70vw;
+  margin: 20px;
+}
+
 .article:hover {
   background-color: var(--white-transparent-color);
   scale: 105%;
@@ -46,10 +61,15 @@
 
 .articleText {
   color: var(--black-color);
-  font-size: var(--article-text-size);
+  font-size: var(--article-text-size-2);
 }
 
 .articleImage {
   color: var(--black-color);
   font-size: var(--article-text-size);
+  height: fit-content;
+}
+
+.empty {
+  height: 85px;
 }

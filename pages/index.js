@@ -1,9 +1,11 @@
 import styles from "../styles/index.module.css";
 import stylesMobile from "../styles/index.mobile.module.css";
 import { useMediaQuery, useMediaQueries } from "@react-hook/media-query";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import thumbnail1 from "./imagesFrontPage/RobotImage2.png";
+import thumbnail2 from "./imagesFrontPage/Luceafar.jpg";
 
 export default function Home() {
   const ComponentChange = () => {
@@ -12,21 +14,22 @@ export default function Home() {
       <>
         <div className={styles.homeContainer}>
           <div className={styles.home}>
-            <Link className={styles.articleSide} href="/other">
+            <Link
+              className={styles.articleSide}
+              href="/articles/culture/articleLuceafarul"
+            >
               <div>
-                <div className={styles.articleTitle}>Placeholder Title</div>
+                <div className={styles.articleTitle}>HYPÉRION</div>
                 <div className={styles.articleText}>
-                  Lorem ipsum dolor parte mare de calamare din marea cea tare si
-                  bate vantu trece frunza Lorem ipsum dolor parte mare de
-                  calamare din marea cea tare si bate vantu trece frunzaLorem
-                  ipsum dolor parte mare de calamare din marea cea tare si bate
-                  vantu trece frunzaLorem ipsum dolor parte mare de calamare din
-                  marea cea tare si bate vantu trece frunzaLorem ipsum dolor
-                  parte mare de calamare din marea cea tare si bate vantu trece
-                  frunzaLorem ipsum dolor parte mare de calamare din marea cea
-                  tare si bate vantu trece frunzaLorem ipsum dolor parte mare de
-                  calamare din marea cea tare si bate vantu trece frunza
+                  IMPRESSIONS SUR LE SPECTACLE "LUCEAFĂRUL" ET SUR LA MISE EN
+                  SCÈNE D'UN CLASSIQUE LITTÉRAIRE
                 </div>
+                <Image
+                  className={styles.articleImage}
+                  src={thumbnail2}
+                  alt="Image d'une spectacle"
+                  layout="responsive"
+                />
               </div>
 
               <hr className={styles.bar}></hr>
@@ -121,19 +124,21 @@ export default function Home() {
               />
             </Link>
 
-            <Link className={stylesMobile.articleCenter} href="/other">
-              <div className={stylesMobile.articleTitle}>Placeholder Title</div>
+            <Link
+              className={stylesMobile.articleCenter}
+              href="/articles/culture/articleLuceafarul"
+            >
+              <div className={stylesMobile.articleTitle}>HYPÉRION</div>
               <div className={stylesMobile.articleText}>
-                Lorem ipsum dolor parte mare de calamare din marea cea tare si
-                bate vantu trece frunzaLorem ipsum dolor parte mare de calamare
-                din marea cea tare si bate vantu trece frunzaLorem ipsum dolor
-                parte mare de calamare din marea cea tare si bate vantu trece
-                frunzaLorem ipsum dolor parte mare de calamare din marea cea
-                tare si bate vantu trece frunzaLorem ipsum dolor parte mare de
-                calamare din marea cea tare si bate vantu trece frunzaLorem
-                ipsum dolor parte mare de calamare din marea cea tare si bate
-                vantu trece frunza
+                IMPRESSIONS SUR LE SPECTACLE "LUCEAFĂRUL" ET SUR LA MISE EN
+                SCÈNE D'UN CLASSIQUE LITTÉRAIRE
               </div>
+              <Image
+                className={stylesMobile.articleImage}
+                src={thumbnail2}
+                alt="Image d'une spectacle"
+                layout="responsive"
+              />
             </Link>
           </div>
         </div>
