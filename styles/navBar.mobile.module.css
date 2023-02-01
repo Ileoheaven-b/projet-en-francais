@@ -12,6 +12,7 @@
   align-items: center;
   z-index: 4;
   position: fixed;
+  top: -0.5px;
 }
 
 .navHamburgerButton {
@@ -25,8 +26,12 @@
 }
 
 @keyframes openNavBar {
-  from {left: -60vw;}
-  to {left: 0vw;}
+  from {
+    left: -60vw;
+  }
+  to {
+    left: 0vw;
+  }
 }
 
 .navHamburgerSide {
@@ -40,10 +45,9 @@
   align-items: center;
   justify-content: left;
   position: fixed;
-  top: 87px;
+  top: 86px;
   left: -60vw;
   z-index: 3;
-  
 }
 
 .navHamburgerSideOpen {
@@ -57,7 +61,7 @@
   align-items: center;
   justify-content: left;
   position: fixed;
-  top: 87px;
+  top: 86px;
   left: 0vw;
   animation-name: openNavBar;
   animation-duration: 1s;
@@ -99,7 +103,6 @@
   color: var(--white-color);
   font-size: var(--nav-title-size);
 }
-
 
 .linkOther {
   text-decoration: none;
