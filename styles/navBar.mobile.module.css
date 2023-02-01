@@ -125,7 +125,7 @@
   padding-bottom: 20px;
   display: flex;
   justify-content: center;
-  gap: min(15vw, 30px);
+  gap: min(1vw, 30px);
   display: flex;
   flex-direction: row;
   align-items: center;
