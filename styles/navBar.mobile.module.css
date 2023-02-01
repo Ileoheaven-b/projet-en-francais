@@ -125,10 +125,19 @@
   padding-bottom: 20px;
   display: flex;
   justify-content: center;
-  gap: min(1vw, 30px);
+  gap: min(1vw, 40px);
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+.linkFooter {
+  text-decoration: none;
+  color: var(--white-color);
+  background-color: var(--blue-color);
+  font-size: fit-content;
+  padding: 10px;
+  border-radius: 12px;
 }
 
 .background {

@@ -238,13 +238,13 @@ export default function App({ Component, pageProps }) {
             <Component {...pageProps} />
 
             <div className={stylesMobile.footerContainer}>
-              <Link className={stylesMobile.linkOther} href="/abonment">
+              <Link className={stylesMobile.linkFooter} href="/abonment">
                 Abonnement
               </Link>
-              <Link className={stylesMobile.linkOther} href="/informations">
+              <Link className={stylesMobile.linkFooter} href="/informations">
                 Informations
               </Link>
-              <Link className={stylesMobile.linkOther} href="/editeurs">
+              <Link className={stylesMobile.linkFooter} href="/editeurs">
                 Éditeurs
               </Link>
             </div>
