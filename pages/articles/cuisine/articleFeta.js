@@ -92,7 +92,6 @@ export default function Article() {
               className={stylesMobile.image}
               src={food1}
               alt=""
-              layout="responsive"
             />
             <div className={stylesMobile.subTitle}>
               Vous n'en avez pas marre des fast food malsains ? Découvrez une

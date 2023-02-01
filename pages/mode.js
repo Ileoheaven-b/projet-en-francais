@@ -1,7 +1,7 @@
 import styles from "../styles/category.module.css";
 import Link from "next/link";
 import Image from "next/image";
-import thumbnail1 from "./imagesFrontPage/Mode1.png";
+import thumbnail1 from "./imagesFrontPage/Clothes1.jpeg";
 
 export default function Mode() {
   return (
@@ -23,7 +23,6 @@ export default function Mode() {
               className={styles.articleImage}
               src={thumbnail1}
               alt="Image d'une IA"
-              layout="responsive"
             />
           </Link>
         </ul>

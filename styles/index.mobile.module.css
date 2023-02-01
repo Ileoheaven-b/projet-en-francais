@@ -49,6 +49,8 @@
   color: var(--black-color);
   font-size: var(--article-text-size);
   border-radius: 16px;
+  width: 100%;
+  height: fit-content;
 }
 
 .bar {

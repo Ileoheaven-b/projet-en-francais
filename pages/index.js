@@ -7,7 +7,9 @@ import Image from "next/image";
 import thumbnail1 from "./imagesFrontPage/RobotImage2.png";
 import thumbnail2 from "./imagesFrontPage/Luceafar.jpg";
 import thumbnail3 from "./imagesFrontPage/Irish.png";
-import thumbnail4 from "./imagesFrontPage/Pasta2.jpg";
+import thumbnail4 from "./imagesFrontPage/Cornisa.jpg";
+import thumbnail5 from "./imagesFrontPage/Pasta2.jpg";
+import thumbnail6 from "./imagesFrontPage/Clothes1.jpeg";
 
 export default function Home() {
   const ComponentChange = () => {
@@ -30,7 +32,6 @@ export default function Home() {
                   className={styles.articleImage}
                   src={thumbnail2}
                   alt="Image d'une spectacle"
-                  layout="responsive"
                 />
               </div>
 
@@ -44,21 +45,42 @@ export default function Home() {
               href="/articles/technologique/articleAI"
             >
               <div className={styles.articleTitle}>
-                ChatGPT : Le partenaire d'étude intelligent
+                ChatGPT, votre propre compagnon d'étude
               </div>
               <div className={styles.articleText}>
-                ChatGPT, un outil Ai avancé qui pourrait aider les étudiants à
-                se développer dans un large éventail d'aspects de leur
-                éducation, tels que l'organisation des ressources et des
-                informations, l'écriture, la communication et le développement
-                linguistique...
+                Êtes-vous toujours à la recherche de nouvelles façons
+                d'apprendre et d'améliorer vos notes ? ChatGPT est votre nouveau
+                partenaire d'étude.
               </div>
               <Image
                 className={styles.articleImage}
                 src={thumbnail1}
                 alt="Image d'une IA"
-                layout="responsive"
               />
+            </Link>
+
+            <hr className={styles.verticalBar}></hr>
+
+            <Link
+              className={styles.articleSide}
+              href="/articles/cuisine/articleFeta"
+            >
+              <div>
+                <div className={styles.articleTitle}>
+                  ON MANGE VITE ET PAS CHER
+                </div>
+                <div className={styles.articleText}>
+                  Vous n'en avez pas marre des fast food malsains ? Découvrez
+                  une recette saine de poitrine de poulet grillée.
+                </div>
+                <Image
+                  className={styles.articleImage}
+                  src={thumbnail5}
+                  alt="Image de feta"
+                />
+              </div>
+
+              <hr className={styles.bar}></hr>
             </Link>
 
             <Link
@@ -78,7 +100,6 @@ export default function Home() {
                   className={styles.articleImage}
                   src={thumbnail3}
                   alt="Image de la "
-                  layout="responsive"
                 />
               </div>
 
@@ -89,21 +110,45 @@ export default function Home() {
 
             <Link
               className={styles.articleCenter}
-              href="/articles/cuisine/articleFeta"
+              href="/articles/mode/articleMode1"
             >
               <div className={styles.articleTitle}>
-                ON MANGE VITE ET PAS CHER!
+                Mode. Pourquoi ne pas s'habiller avec style quand on en a
+                l'occasion ?
               </div>
               <div className={styles.articleText}>
-                Vous n'en avez pas marre des fast food malsains ? Découvrez une
-                recette saine de poitrine de poulet grillée.
+                Les boutiques d’occasion et les outlets sont une excellente
+                alternative aux magasins de vêtements ordinaires, que tu aimes
+                les vêtements vintage, tu te soucies de l'environnement ou que
+                tu veux simplement économiser de l'argent...
               </div>
-              <Image
-                className={styles.articleImage}
-                src={thumbnail4}
-                alt="Image de la feta"
-                layout="responsive"
-              />
+              <Image className={styles.articleImage} src={thumbnail6} alt="" />
+            </Link>
+
+            <hr className={styles.verticalBar}></hr>
+
+            <Link
+              className={styles.articleSide}
+              href="/articles/sports/articleSport1"
+            >
+              <div>
+                <div className={styles.articleTitle}>
+                  Athlètes locaux. Où commencer ma carrière?
+                </div>
+                <div className={styles.articleText}>
+                  Avez-vous déjà eu envie de pratiquer un sport, mais vous ne
+                  saviez pas où ?Cet article vous donnera un aperçu des options
+                  dont vous disposez localement ! Nos journalistes ont analysé
+                  toutes les options pour faire du sport à Botosani...
+                </div>
+                <Image
+                  className={styles.articleImage}
+                  src={thumbnail4}
+                  alt="Image d'une spectacle"
+                />
+              </div>
+
+              <hr className={styles.bar}></hr>
             </Link>
           </div>
         </div>
@@ -117,20 +162,17 @@ export default function Home() {
               href="/articles/technologique/articleAI"
             >
               <div className={stylesMobile.articleTitle}>
-                ChatGPT : Le partenaire d'étude intelligent
+                ChatGPT, votre propre compagnon d'étude
               </div>
               <div className={stylesMobile.articleText}>
-                ChatGPT, un outil Ai avancé qui pourrait aider les étudiants à
-                se développer dans un large éventail d'aspects de leur
-                éducation, tels que l'organisation des ressources et des
-                informations, l'écriture, la communication et le développement
-                linguistique...
+                Êtes-vous toujours à la recherche de nouvelles façons
+                d'apprendre et d'améliorer vos notes ? ChatGPT est votre nouveau
+                partenaire d'étude.
               </div>
               <Image
                 className={stylesMobile.articleImage}
                 src={thumbnail1}
                 alt="Image d'une IA"
-                layout="responsive"
               />
             </Link>
 
@@ -147,7 +189,6 @@ export default function Home() {
                 className={stylesMobile.articleImage}
                 src={thumbnail2}
                 alt="Image d'une spectacle"
-                layout="responsive"
               />
             </Link>
 
@@ -167,7 +208,6 @@ export default function Home() {
                 className={stylesMobile.articleImage}
                 src={thumbnail3}
                 alt="Image d'une spectacle"
-                layout="responsive"
               />
             </Link>
 
@@ -186,7 +226,6 @@ export default function Home() {
                 className={stylesMobile.articleImage}
                 src={thumbnail4}
                 alt="Image de la feta"
-                layout="responsive"
               />
             </Link>
           </div>

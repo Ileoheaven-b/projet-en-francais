@@ -15,7 +15,7 @@
 
 .home {
   display: grid;
-  grid-template-columns: 20vw 1vw 65vw;
+  grid-template-columns: 20vw 1vw 40vw 1vw 20vw;
   grid-template-rows: auto auto;
   grid-gap: 20px;
   grid-column-gap: 60px;
@@ -42,6 +42,7 @@
   padding: 8px;
   user-select: none;
   text-decoration: none;
+  
 }
 
 .articleCenter:hover {
@@ -70,6 +71,8 @@
   color: var(--black-color);
   font-size: var(--article-text-size);
   border-radius: 16px;
+  width: 100%;
+  height: fit-content;
 }
 
 .bar {
@@ -83,7 +86,7 @@
 .verticalBar {
   background-color: var(--red-color);
   height: 105%;
-  width: .2vw;
+  width: 0.2vw;
   border: 0px;
   margin: 0px;
 }

@@ -2,7 +2,7 @@ import styles from "../styles/category.module.css";
 import Link from "next/link";
 import Image from "next/image";
 import thumbnail1 from "./imagesFrontPage/Pasta2.jpg";
-import thumbnail2 from "./imagesFrontPage/Coffee2.jpg";
+import thumbnail2 from "./imagesFrontPage/Bread_Color.jpg";
 import thumbnail3 from "./imagesFrontPage/Cupcake2.png";
 
 export default function Cuisine() {

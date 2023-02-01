@@ -67,7 +67,7 @@
 .linkHamburger {
   text-decoration: none;
   color: var(--white-color);
-  font-size: var(--nav-title-size);
+  font-size: var(--nav-btn-size);
   margin: 10px;
   z-index: 3;
 }

@@ -25,7 +25,6 @@ export default function Sports() {
               className={styles.articleImage}
               src={thumbnail1}
               alt=""
-              layout="responsive"
             />
           </Link>
         </ul>

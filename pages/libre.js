@@ -27,7 +27,7 @@ export default function Libre() {
               </div>
 
               <Image
-                className={styles.articleImage}
+                className={styles.articleImageHorizontal}
                 src={thumbnail1}
                 alt="Image d'une spectacle"
               />

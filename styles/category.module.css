@@ -29,7 +29,7 @@
   padding: 8px;
   user-select: none;
   text-decoration: none;
-  width: 70vw;
+  width: 50vw;
   margin: 20px;
 }
 
@@ -44,7 +44,7 @@
   padding: 8px;
   user-select: none;
   text-decoration: none;
-  width: 70vw;
+  width: 50vw;
   margin: 20px;
 }
 
@@ -71,6 +71,21 @@
   width: 100%;
 }
 
+.articleImageHorizontal {
+  color: var(--black-color);
+  font-size: var(--article-text-size);
+  width: 50%;
+  height: auto;
+}
+
 .empty {
   height: 85px;
+}
+
+.verticalBar {
+  background-color: var(--red-color);
+  height: 105%;
+  width: 0.2vw;
+  border: 0px;
+  margin: 0px;
 }
