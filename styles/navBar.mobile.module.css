@@ -12,7 +12,7 @@
   align-items: center;
   z-index: 4;
   position: fixed;
-  top: -0.5px;
+  top: -1px;
 }
 
 .navHamburgerButton {
@@ -45,7 +45,7 @@
   align-items: center;
   justify-content: left;
   position: fixed;
-  top: 86px;
+  top: 85px;
   left: -60vw;
   z-index: 3;
 }
@@ -61,7 +61,7 @@
   align-items: center;
   justify-content: left;
   position: fixed;
-  top: 86px;
+  top: 85px;
   left: 0vw;
   animation-name: openNavBar;
   animation-duration: 1s;
