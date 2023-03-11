@@ -45,6 +45,16 @@
   flex-direction: row;
   flex: 1 1 0px;
   align-items: center;
+  gap: 15px;
+}
+
+.twoElementsSpecial {
+  display: grid;
+  grid-template-columns: 46vw 30vw;
+  grid-template-rows: auto auto;
+  grid-gap: 15px;
+  grid-column-gap: 60px;
+  align-items: center;
 }
 
 .text {

@@ -193,7 +193,7 @@ export default function Home() {
 
             <Link
               className={stylesMobile.articleCenter}
-              href="/articles/libre/articleMode1"
+              href="/articles/mode/articleMode1"
             >
               <div className={stylesMobile.articleTitle}>
                 Mode. Pourquoi ne pas s'habiller avec style quand on en a
@@ -250,7 +250,7 @@ export default function Home() {
 
             <Link
               className={stylesMobile.articleCenter}
-              href="/articles/cuisine/articleSport1"
+              href="/articles/sports/articleSport1"
             >
               <div className={stylesMobile.articleTitle}>
                 Athlètes locaux. Où commencer ma carrière?

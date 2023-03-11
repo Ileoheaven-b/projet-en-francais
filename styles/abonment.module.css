@@ -38,6 +38,7 @@
   background-color: var(--white-color);
   padding: 8px;
   padding-top: 20px;
+  margin: 20px;
   user-select: none;
   text-decoration: none;
   height: 550px;

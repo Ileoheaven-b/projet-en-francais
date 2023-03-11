@@ -68,6 +68,13 @@
   z-index: 3;
 }
 
+.buttonHamburger {
+  width: 50vw;
+  height: 5vh;
+  text-align: center;
+  line-height: 5vh;
+}
+
 .linkHamburger {
   text-decoration: none;
   color: var(--white-color);
