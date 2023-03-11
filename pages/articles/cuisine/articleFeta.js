@@ -13,10 +13,7 @@ export default function Article() {
       <>
         <div className={styles.homeContainer}>
           <div className={styles.textBox}>
-            <div className={styles.title}>
-              ON MANGE VITE ET PAS CHER!
-              <div className={styles.imageSmallText}>- Janvier, 2023</div>
-            </div>
+            <div className={styles.title}>On mange vite et pas cher</div>
 
             <div className={styles.empty}></div>
 
@@ -81,18 +78,11 @@ export default function Article() {
       <>
         <div className={stylesMobile.homeContainer}>
           <div className={stylesMobile.textBox}>
-            <div className={stylesMobile.title}>
-              ON MANGE VITE ET PAS CHER!
-              <div className={stylesMobile.imageSmallText}>- Janvier, 2023</div>
-            </div>
+            <div className={stylesMobile.title}>On mange vite et pas cher</div>
 
             <div className={stylesMobile.empty}></div>
 
-            <Image
-              className={stylesMobile.image}
-              src={food1}
-              alt=""
-            />
+            <Image className={stylesMobile.image} src={food1} alt="" />
             <div className={stylesMobile.subTitle}>
               Vous n'en avez pas marre des fast food malsains ? Découvrez une
               recette saine de poitrine de poulet grillée.

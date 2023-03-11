@@ -11,8 +11,7 @@ import Modal from "../components/modal/modal";
 import menuSvg from "./imagesFrontPage/svgs/menu.svg";
 
 export default function App({ Component, pageProps }) {
-
-  const[mounted, setMounted] = useState(false);
+  const [mounted, setMounted] = useState(false);
   useEffect(() => {
     setMounted(true);
   }, []);
@@ -160,6 +159,7 @@ export default function App({ Component, pageProps }) {
               <div className={styles.navLeft}>
                 <Link className={styles.linkHome} href="/">
                   Le mot écrit
+                  <div className={styles.smallText}>- Janvier, 2023</div>
                 </Link>
               </div>
               <div className={styles.navRight}>

@@ -71,6 +71,7 @@
   font-size: var(--article-text-size-2);
   width: 100%;
   height: 100%;
+  border-radius: 15px;
 }
 
 .imageSmallText {

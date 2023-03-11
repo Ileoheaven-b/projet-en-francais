@@ -14,10 +14,7 @@ export default function Article() {
       <>
         <div className={styles.homeContainer}>
           <div className={styles.textBox}>
-            <div className={styles.title}>
-              RETOUR À LA QUARANTAINE
-              <div className={styles.imageSmallText}>- Janvier, 2023</div>
-            </div>
+            <div className={styles.title}>Retour à la quarantaine</div>
 
             <div className={styles.empty}></div>
 
@@ -66,10 +63,7 @@ export default function Article() {
       <>
         <div className={stylesMobile.homeContainer}>
           <div className={stylesMobile.textBox}>
-            <div className={stylesMobile.title}>
-              RETOUR À LA QUARANTAINE
-              <div className={stylesMobile.imageSmallText}>- Janvier, 2023</div>
-            </div>
+            <div className={stylesMobile.title}>Retour à la quarantaine</div>
 
             <div className={stylesMobile.empty}></div>
 

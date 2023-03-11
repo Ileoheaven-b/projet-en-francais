@@ -19,7 +19,6 @@ export default function Article() {
             <div className={styles.title}>
               Explorer la créativité grâce à l'imagerie générée par l'IA : un
               regard sur la diffusion stable
-              <div className={styles.imageSmallText}>- Janvier, 2023</div>
             </div>
 
             <div className={styles.empty}></div>
@@ -120,7 +119,6 @@ export default function Article() {
             <div className={stylesMobile.title}>
               Explorer la créativité grâce à l'imagerie générée par l'IA : un
               regard sur la diffusion stable
-              <div className={stylesMobile.imageSmallText}>- Janvier, 2023</div>
             </div>
 
             <div className={stylesMobile.empty}></div>

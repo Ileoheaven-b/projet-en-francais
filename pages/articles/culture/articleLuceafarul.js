@@ -12,15 +12,12 @@ export default function Article() {
       <>
         <div className={styles.homeContainer}>
           <div className={styles.textBox}>
-            <div className={styles.title}>
-              HYPÉRION
-              <div className={styles.imageSmallText}>- Janvier, 2023</div>
-            </div>
+            <div className={styles.title}>HYPÉRION</div>
 
             <div className={styles.empty}></div>
             <div className={styles.subTitle}>
-              IMPRESSIONS SUR LE SPECTACLE "LUCEAFĂRUL" ET SUR LA MISE EN SCÈNE
-              D'UN CLASSIQUE LITTÉRAIRE
+              Impressions sur le spectacle "LUCEAFĂRUL" et sur la mise en scène
+              d'un classique littéraire
             </div>
 
             <div className={styles.empty}></div>
@@ -84,15 +81,12 @@ export default function Article() {
       <>
         <div className={stylesMobile.homeContainer}>
           <div className={stylesMobile.textBox}>
-            <div className={stylesMobile.title}>
-              HYPÉRION
-              <div className={stylesMobile.imageSmallText}>- Janvier, 2023</div>
-            </div>
+            <div className={stylesMobile.title}>HYPÉRION</div>
 
             <div className={stylesMobile.empty}></div>
             <div className={stylesMobile.subTitle}>
-              IMPRESSIONS SUR LE SPECTACLE "LUCEAFĂRUL" ET SUR LA MISE EN SCÈNE
-              D'UN CLASSIQUE LITTÉRAIRE
+              Impressions sur le spectacle "LUCEAFĂRUL" et sur la mise en scène
+              d'un classique littéraire
             </div>
 
             <div className={stylesMobile.empty}></div>

@@ -19,17 +19,14 @@ export default function Editeurs() {
 
         <div className={styles.gridBox}>
           <div className={styles.listBox}>
-            <div className={styles.title}>Catégorie sport</div>
             <ul>
-              <li className={styles.text}>Nume Prenume</li>
-              <li className={styles.text}>Nume Prenume</li>
-              <li className={styles.text}>Nume Prenume</li>
-              <li className={styles.text}>Nume Prenume</li>
-              <li className={styles.text}>Nume Prenume</li>
+              <li className={styles.text}>Buciuleac Tudor</li>
+              <li className={styles.text}>Loghin Iustin</li>
+              <li className={styles.text}>David Darius</li>
+              <li className={styles.text}>Mitoceanu Ciprian</li>
             </ul>
           </div>
           <div className={styles.listBox}>
-            <div className={styles.title}>Catégorie technologique</div>
             <ul>
               <li className={styles.text}>Gireada Serban</li>
               <li className={styles.text}>Axinte Victor</li>
@@ -38,17 +35,14 @@ export default function Editeurs() {
             </ul>
           </div>
           <div className={styles.listBox}>
-            <div className={styles.title}>Catégorie mode</div>
             <ul>
-              <li className={styles.text}>Nume Prenume</li>
-              <li className={styles.text}>Nume Prenume</li>
-              <li className={styles.text}>Nume Prenume</li>
-              <li className={styles.text}>Nume Prenume</li>
-              <li className={styles.text}>Nume Prenume</li>
+              <li className={styles.text}>Asiminicesei Andrei</li>
+              <li className={styles.text}>Mateiuc Eliza</li>
+              <li className={styles.text}>Mateiuc Elena</li>
+              <li className={styles.text}>Vasilache Teodora</li>
             </ul>
           </div>
           <div className={styles.listBox}>
-            <div className={styles.title}>Catégorie cuisine</div>
             <ul>
               <li className={styles.text}>Ciobanasu Bogdan</li>
               <li className={styles.text}>Puscasu Eduard</li>
@@ -58,7 +52,13 @@ export default function Editeurs() {
             </ul>
           </div>
           <div className={styles.listBox}>
-            <div className={styles.title}>Catégorie culture</div>
+            <ul>
+              <li className={styles.text}>Dumitriu David</li>
+              <li className={styles.text}>Popa Petru</li>
+              <li className={styles.text}>Maghiar Lucian</li>
+            </ul>
+          </div>
+          <div className={styles.listBox}>
             <ul>
               <li className={styles.text}>Federovici Mari</li>
               <li className={styles.text}>Gavrilet Teodora</li>
@@ -66,14 +66,6 @@ export default function Editeurs() {
               <li className={styles.text}>Sanautanu Ana</li>
               <li className={styles.text}>Negrii Mara</li>
               <li className={styles.text}>Cerep Sabina</li>
-            </ul>
-          </div>
-          <div className={styles.listBox}>
-            <div className={styles.title}>Catégorie temps libre</div>
-            <ul>
-              <li className={styles.text}>Dumitriu David</li>
-              <li className={styles.text}>Popa Petru</li>
-              <li className={styles.text}>Maghiar Lucian</li>
             </ul>
           </div>
         </div>

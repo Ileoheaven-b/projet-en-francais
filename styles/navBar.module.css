@@ -65,3 +65,9 @@
   align-items: center;
   z-index: 2;
 }
+
+.smallText {
+  text-decoration: none;
+  color: var(--white-color);
+  font-size: var(--article-text-size);
+}

@@ -6,7 +6,7 @@ import Link from "next/link";
 import Image from "next/image";
 import thumbnail1 from "./imagesFrontPage/RobotImage2.png";
 import thumbnail2 from "./imagesFrontPage/Luceafar.jpg";
-import thumbnail3 from "./imagesFrontPage/Irish.png";
+import thumbnail3 from "./imagesFrontPage/Main_Image_-_Les_Cafes.png";
 import thumbnail4 from "./imagesFrontPage/Cornisa.jpg";
 import thumbnail5 from "./imagesFrontPage/Pasta2.jpg";
 import thumbnail6 from "./imagesFrontPage/Clothes1.jpeg";
@@ -25,8 +25,8 @@ export default function Home() {
               <div>
                 <div className={styles.articleTitle}>HYPÉRION</div>
                 <div className={styles.articleText}>
-                  IMPRESSIONS SUR LE SPECTACLE "LUCEAFĂRUL" ET SUR LA MISE EN
-                  SCÈNE D'UN CLASSIQUE LITTÉRAIRE
+                  Impressions sur le spectacle "LUCEAFĂRUL" et sur la mise en
+                  scène d'un classique littéraire
                 </div>
                 <Image
                   className={styles.articleImage}
@@ -67,7 +67,7 @@ export default function Home() {
             >
               <div>
                 <div className={styles.articleTitle}>
-                  ON MANGE VITE ET PAS CHER
+                  On mange vite et pas cher
                 </div>
                 <div className={styles.articleText}>
                   Vous n'en avez pas marre des fast food malsains ? Découvrez
@@ -85,21 +85,20 @@ export default function Home() {
 
             <Link
               className={styles.articleSide}
-              href="/articles/libre/articleAnniversaire"
+              href="/articles/libre/articleLesCafes"
             >
               <div>
                 <div className={styles.articleTitle}>
-                  Où pouvez-vous avoir un anniversaire?
+                  Les cafes dans Botosani
                 </div>
                 <div className={styles.articleText}>
-                  CRAZY PUB EST UN ENDROIT PARFAIT POUR LES FÊTES
-                  D'ANNIVERSAIRE. LES LA VUE EST SUPERBE ET LE MENU EST BON ET À
-                  UN PRIX AVANTAGEUX...
+                  Les cafés oü les jeunes de Botosani choisissent de passer leur
+                  temps libre...
                 </div>
                 <Image
                   className={styles.articleImage}
                   src={thumbnail3}
-                  alt="Image de la "
+                  alt="Image d'une restaurant"
                 />
               </div>
 
@@ -144,7 +143,7 @@ export default function Home() {
                 <Image
                   className={styles.articleImage}
                   src={thumbnail4}
-                  alt="Image d'une spectacle"
+                  alt="Cornisa"
                 />
               </div>
 
@@ -182,8 +181,8 @@ export default function Home() {
             >
               <div className={stylesMobile.articleTitle}>HYPÉRION</div>
               <div className={stylesMobile.articleText}>
-                IMPRESSIONS SUR LE SPECTACLE "LUCEAFĂRUL" ET SUR LA MISE EN
-                SCÈNE D'UN CLASSIQUE LITTÉRAIRE
+                Impressions sur le spectacle "LUCEAFĂRUL" et sur la mise en
+                scène d'un classique littéraire
               </div>
               <Image
                 className={stylesMobile.articleImage}
@@ -194,15 +193,35 @@ export default function Home() {
 
             <Link
               className={stylesMobile.articleCenter}
-              href="/articles/libre/articleAnniversaire"
+              href="/articles/libre/articleMode1"
             >
               <div className={stylesMobile.articleTitle}>
-                Où pouvez-vous avoir un anniversaire?
+                Mode. Pourquoi ne pas s'habiller avec style quand on en a
+                l'occasion?
               </div>
               <div className={stylesMobile.articleText}>
-                CRAZY PUB EST UN ENDROIT PARFAIT POUR LES FÊTES D'ANNIVERSAIRE.
-                LES LA VUE EST SUPERBE ET LE MENU EST BON ET À UN PRIX
-                AVANTAGEUX...
+                Les boutiques d’occasion et les outlets sont une excellente
+                alternative aux magasins de vêtements ordinaires, que tu aimes
+                les vêtements vintage, tu te soucies de l'environnement ou que
+                tu veux simplement économiser de l'argent...
+              </div>
+              <Image
+                className={stylesMobile.articleImage}
+                src={thumbnail6}
+                alt="Image d'une spectacle"
+              />
+            </Link>
+
+            <Link
+              className={stylesMobile.articleCenter}
+              href="/articles/libre/articleLesCafes"
+            >
+              <div className={stylesMobile.articleTitle}>
+                Les cafes dans Botosani
+              </div>
+              <div className={stylesMobile.articleText}>
+                Les cafés oü les jeunes de Botosani choisissent de passer leur
+                temps libre...
               </div>
               <Image
                 className={stylesMobile.articleImage}
@@ -216,7 +235,7 @@ export default function Home() {
               href="/articles/cuisine/articleFeta"
             >
               <div className={stylesMobile.articleTitle}>
-                ON MANGE VITE ET PAS CHER!
+                On mange vite et pas cher
               </div>
               <div className={stylesMobile.articleText}>
                 Vous n'en avez pas marre des fast food malsains ? Découvrez une
@@ -224,8 +243,28 @@ export default function Home() {
               </div>
               <Image
                 className={stylesMobile.articleImage}
-                src={thumbnail4}
+                src={thumbnail5}
                 alt="Image de la feta"
+              />
+            </Link>
+
+            <Link
+              className={stylesMobile.articleCenter}
+              href="/articles/cuisine/articleSport1"
+            >
+              <div className={stylesMobile.articleTitle}>
+                Athlètes locaux. Où commencer ma carrière?
+              </div>
+              <div className={stylesMobile.articleText}>
+                Avez-vous déjà eu envie de pratiquer un sport, mais vous ne
+                saviez pas où ?Cet article vous donnera un aperçu des options
+                dont vous disposez localement ! Nos journalistes ont analysé
+                toutes les options pour faire du sport à Botosani...
+              </div>
+              <Image
+                className={stylesMobile.articleImage}
+                src={thumbnail4}
+                alt="Cornisa"
               />
             </Link>
           </div>

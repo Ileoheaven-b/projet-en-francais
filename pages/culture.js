@@ -1,4 +1,5 @@
 import styles from "../styles/category.module.css";
+import stylesMobile from "../styles/category.mobile.module.css";
 import Link from "next/link";
 import Image from "next/image";
 import thumbnail1 from "./imagesFrontPage/Luceafar.jpg";
@@ -18,8 +19,8 @@ export default function Culture() {
               <div>
                 <div className={styles.articleTitle}>HYPÉRION</div>
                 <div className={styles.articleText}>
-                  IMPRESSIONS SUR LE SPECTACLE "LUCEAFĂRUL" ET SUR LA MISE EN
-                  SCÈNE D'UN CLASSIQUE LITTÉRAIRE
+                  Impressions sur le spectacle "LUCEAFĂRUL" et sur la mise en
+                  scène d'un classique littéraire
                   <div className={styles.empty}></div>
                   Quand je suis entré dans la salle de théâtre Vasilache le 15
                   janvier pour voir l'adaptation scénique d'un poème bien connu,
@@ -46,18 +47,19 @@ export default function Culture() {
       </>
     ) : (
       <>
-        <div className={styles.homeContainer}>
-          <ul className={styles.list}>
+        <div className={stylesMobile.homeContainer}>
+          <ul className={stylesMobile.list}>
             <Link
-              className={styles.article}
+              className={stylesMobile.article}
               href="/articles/culture/articleLuceafarul"
             >
               <div>
-                <div className={styles.articleTitle}>HYPÉRION</div>
-                <div className={styles.articleText}>
-                  IMPRESSIONS SUR LE SPECTACLE "LUCEAFĂRUL" ET SUR LA MISE EN
-                  SCÈNE D'UN CLASSIQUE LITTÉRAIRE
-                  <div className={styles.empty}></div>
+                <div className={stylesMobile.articleTitle}>HYPÉRION</div>
+                <div className={stylesMobile.articleText}>
+                  Impressions sur le spectacle "LUCEAFĂRUL" et sur la mise en
+                  scène d'un classique littéraire
+                  <br></br>
+                  <br></br>
                   Quand je suis entré dans la salle de théâtre Vasilache le 15
                   janvier pour voir l'adaptation scénique d'un poème bien connu,
                   je ne m'attendais pas à repartir les larmes aux yeux.
@@ -73,7 +75,7 @@ export default function Culture() {
               </div>
 
               <Image
-                className={styles.articleImage}
+                className={stylesMobile.articleImage}
                 src={thumbnail1}
                 alt="Image d'une spectacle"
               />

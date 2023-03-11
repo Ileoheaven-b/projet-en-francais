@@ -22,6 +22,7 @@
 .article {
   display: flex;
   flex-direction: column;
+  gap: 10px;
   /*justify-content: space-around;*/
   border: 3px solid var(--red-color);
   border-radius: 18px;
@@ -36,6 +37,7 @@
 .articleHorizontal {
   display: flex;
   flex-direction: row;
+  gap: 15px;
   /*justify-content: space-around;*/
   align-items: center;
   border: 3px solid var(--red-color);
@@ -57,6 +59,7 @@
   color: var(--black-color);
   font-size: var(--article-title-size);
   font-weight: bold;
+  width: 100%;
 }
 
 .articleText {
@@ -69,6 +72,7 @@
   font-size: var(--article-text-size);
   height: 100%;
   width: 100%;
+  border-radius: 15px;
 }
 
 .articleImageHorizontal {
@@ -76,6 +80,7 @@
   font-size: var(--article-text-size);
   width: 50%;
   height: auto;
+  border-radius: 15px;
 }
 
 .empty {

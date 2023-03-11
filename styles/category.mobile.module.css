@@ -11,12 +11,19 @@
   background-attachment: fixed;
   background-size: cover;
   min-height: 100vh;
-  justify-content: center;
 }
 
-.textBox {
+.list {
+  gap: 40px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.article {
   display: flex;
   flex-direction: column;
+  gap: 10px;
+  /*justify-content: space-around;*/
   border: 3px solid var(--red-color);
   border-radius: 18px;
   background-color: var(--white-color);
@@ -25,63 +32,65 @@
   text-decoration: none;
   width: 80vw;
   margin: 20px;
-  justify-content: center;
-  align-items: center;
 }
 
-.title {
-  color: var(--black-color);
-  font-size: var(--article-title-size-2);
-  font-weight: bold;
-  text-align: center;
-}
-
-.subTitle {
-  color: var(--black-color);
-  font-size: var(--article-title-size);
-  text-align: center;
-}
-
-.twoElements {
+.articleHorizontal {
   display: flex;
   flex-direction: row;
-  flex: 1 1 0px;
+  gap: 15px;
+  /*justify-content: space-around;*/
   align-items: center;
-}
-
-.text {
-  color: var(--black-color);
-  font-size: var(--article-text-size-2);
-  text-align: center;
-}
-
-.link {
+  border: 3px solid var(--red-color);
+  border-radius: 18px;
+  background-color: var(--white-color);
+  padding: 8px;
+  user-select: none;
   text-decoration: none;
-  color: var(--red-color);
-  font-size: var(--article-text-size-2);
+  width: 50vw;
+  margin: 20px;
 }
 
-.imageContainer {
-  display: flex;
-  flex-direction: column;
-  width: fit-content;
-  justify-content: center;
+.article:hover {
+  background-color: var(--white-transparent-color);
+  scale: 105%;
 }
 
-.image {
+.articleTitle {
+  color: var(--black-color);
+  font-size: var(--article-title-size);
+  font-weight: bold;
+  width: 100%;
+}
+
+.articleText {
   color: var(--black-color);
   font-size: var(--article-text-size-2);
+}
+
+.articleImage {
+  color: var(--black-color);
+  font-size: var(--article-text-size);
+  height: 100%;
   width: 100%;
+  border-radius: 15px;
+}
+
+.articleImageHorizontal {
+  color: var(--black-color);
+  font-size: var(--article-text-size);
+  width: 50%;
   height: auto;
   border-radius: 15px;
 }
 
-.imageSmallText {
-  color: var(--black-color);
-  font-size: var(--article-image-text-size);
-  text-align: right;
+.empty {
+  height: 85px;
 }
 
-.empty {
-  height: 40px;
+.verticalBar {
+  background-color: var(--red-color);
+  height: 105%;
+  width: 0.2vw;
+  border: 0px;
+  margin: 0px;
 }
