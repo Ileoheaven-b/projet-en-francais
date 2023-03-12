@@ -20,7 +20,7 @@ export default function Article() {
             <div className={styles.empty}></div>
             <div className={styles.empty}></div>
             <div className={styles.twoElements}>
-              <div className={styles.text}>
+              <div className={styles.subTitle}>
                 Avez-vous déjà eu envie de pratiquer un sport, mais vous ne
                 saviez pas où ?Cet article vous donnera un aperçu des options
                 dont vous disposez localement ! Nos journalistes ont analysé
@@ -28,7 +28,7 @@ export default function Article() {
                 La première catégorie dont nous parlerons est celle des
                 amateurs. Par exemple, en tant qu'amateur, vous pouvez
                 entretenir votre silhouette en vous rendant dans une salle de
-                sport :<div className={styles.empty}></div>- Anvi gym
+                sport:<div className={styles.empty}></div>- Anvi gym
                 <br></br>- Gold gym<br></br> - Sun gym
                 <div className={styles.empty}></div>
                 Aussi, si vous aimez les sports d'équipe et que vous souhaitez
@@ -48,7 +48,7 @@ export default function Article() {
               </div>
             </div>
             <div className={styles.empty}></div>
-            <div className={styles.text}>
+            <div className={styles.subTitle}>
               -Football : Vous pouvez louer un terrain de foot avec vos amis :
               au lycée Gheorghe Asachi, à l'école 6 et à Cornisa où vous pouvez
               jouer dehors ou dans un ballon où vous avez de la chaleur à un
@@ -63,7 +63,7 @@ export default function Article() {
             </div>
 
             <div className={styles.twoElements}>
-              <div className={styles.text}>
+              <div className={styles.subTitle}>
                 La deuxième catégorie est dédiée à ceux qui veulent performer.
                 Nous vous recommandons : Au Sports Club, vous pouvez pratiquer
                 au niveau de la performance : Muay Thai, Badminton, Tennis,
