@@ -37,7 +37,7 @@ export default function App({ Component, pageProps }) {
                 onClick={() => changeNavBarToggle(!navBarToggle)}
                 href="/mode"
               >
-                <div className={stylesMobile.buttonHamburger}>Moden</div>
+                <div className={stylesMobile.buttonHamburger}>Mode</div>
               </Link>
               <hr className={stylesMobile.dividerBar}></hr>
               <Link

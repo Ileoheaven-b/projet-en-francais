@@ -206,15 +206,15 @@ export default function Article() {
             </div>
 
             <div className={styles.empty}></div>
-            
+
             <div className={styles.twoElements}>
               <div className={styles.imageContainer}>
                 <Image className={styles.image} src={image10} alt="Mode" />
               </div>
               <div className={styles.subTitle}>
                 <b>
-                  2. La couleur de Ia ceinture doit correspondre celle des
-                  chaussures.
+                  4. Si vous portez votre chemise dans votre pantalon, vous
+                  devez également avoir une ceinture.
                 </b>
               </div>
             </div>
@@ -225,28 +225,187 @@ export default function Article() {
       <>
         <div className={stylesMobile.homeContainer}>
           <div className={stylesMobile.textBox}>
-            <Image
-              className={stylesMobile.image}
-              src={mainImage1}
-              alt=""
-              layout="responsive"
-            />
-          </div>
-          <div className={stylesMobile.textBox}>
-            <Image
-              className={stylesMobile.image}
-              src={mainImage2}
-              alt=""
-              layout="responsive"
-            />
-          </div>
-          <div className={stylesMobile.textBox}>
-            <Image
-              className={stylesMobile.image}
-              src={mainImage3}
-              alt=""
-              layout="responsive"
-            />
+            <div className={stylesMobile.title}>
+              Mode. Pourquoi ne pas s'habiller avec style quand on en a
+              l'occasion ?
+            </div>
+            <div className={stylesMobile.empty}></div>
+
+            <div className={stylesMobile.imageContainer}>
+              <Image className={stylesMobile.image} src={image1} alt="Mode" />
+            </div>
+            <div className={stylesMobile.text}>
+              <div className={stylesMobile.text}>
+                Les boutiques d 'occasion et les outlets sont une excellente
+                alternative aux magasins de vétements ordinaires, que tu aimes
+                Ies vétements vintage, tu te soucies de I 'environnement ou que
+                tu veux simplement économiser de I 'argent.
+              </div>
+              <div className={stylesMobile.text}>
+                Mais puisque vous lisez cet article, je n'ai pas besoin de vous
+                convaincre que vous pouvez trouver des vétements stylés et cool
+                dans les friperies et que réutiliser des vétements est une fagon
+                de prendre soin de la planete. Alors, voici mes boutiques d
+                'occasion préférées à Botosani oil je chasse des objets rares et
+                insolites.
+              </div>
+
+              <div className={stylesMobile.empty}></div>
+            </div>
+
+            <div class={stylesMobile.text}>
+              <div className={stylesMobile.imageContainer}>
+                <Image className={stylesMobile.image} src={image2} alt="Mode" />
+              </div>
+              <div className={stylesMobile.text}>
+                <div className={stylesMobile.subTitle}>
+                  <b>Tendances de Ia mode</b>
+                </div>
+                Situé pres de l'höpital de la ville au numero 2, Rue George
+                Enescu, Oshop Outlet est un autre excellent choix pour les
+                passionnés de mode. Si vous préférez ne pas porter de vétements
+                qui ont deja ete portés par dtautres personnes, mais que vous
+                voulez tout de méme des étements bon marché et à la mode, Oshop
+                Outlet est plus que parfait.
+              </div>
+              <div className={stylesMobile.imageContainer}>
+                <Image className={stylesMobile.image} src={image3} alt="Mode" />
+              </div>
+            </div>
+            <div className={stylesMobile.empty}></div>
+
+            <div className={stylesMobile.imageContainer}>
+              <Image className={stylesMobile.image} src={image4} alt="Mode" />
+            </div>
+            <div class={stylesMobile.text}>
+              <div className={stylesMobile.subTitle}>
+                <b>Chic</b>
+              </div>
+              Des prix bas pour des vétements neufs, souvent de marques
+              internationales et une large gamme de tenues et d' accessoires :
+              que demander de plus ? Oshop Outlet est le meilleur, surtout si
+              vous recherchez des marques que vous ne pourriez normalement pas
+              vous permettre, ce qui rend le mode accessible à tous les
+              passionnés de mode.
+            </div>
+
+            <div className={stylesMobile.empty}></div>
+
+            <div className={stylesMobile.text}>
+              <div className={stylesMobile.subTitle}>
+                <b>Oh là là</b>
+              </div>
+              Le magasin d'occasion de la route nationale 119, Botosani pourrait
+              étre Itendroit idéal pour trouver des vétements abordables et
+              élégants. Les vétements abordables sont leur principale
+              caractéristique, mais ce que je pense étre Ia meilleure chose à
+              propos de ce magasin de vétements, c'est la variété de vétements
+              que quelqu'un peut trou
+              <div className={stylesMobile.empty}></div>
+            </div>
+            <div className={stylesMobile.imageContainer}>
+              <Image className={stylesMobile.image} src={image11} alt="Mode" />
+            </div>
+
+            <div className={stylesMobile.text}>
+              Les principaux problémes de I 'industrie de la mode sont son
+              consumérisme et son manque de diversité. Alors que la mode
+              universellement encouragée est principalement d'un type unique, il
+              existe de nombreux autres stylesMobile des modes alternative, dont
+              n certain nombre peuvent certainement étre trouvés dans notre
+              Ville. Ce magasin peut fournir aux jeunes un sens de Ia créativité
+              hors du commun avec Ies ressources nécessaires pour s'habiller
+              comme ils se sentent comme cela les représente. De plus, ce
+              magasin regorge de t- shirts amusants avec lesquels vous pourrez
+              surprendre vos amis, surtout en été, mais pas seulement.
+            </div>
+
+            <div className={stylesMobile.empty}></div>
+
+            <div className={stylesMobile.subTitle}>
+              <b>Avantaj</b>
+            </div>
+
+            <div className={stylesMobile.text}>
+              Mais la meilleure chose å propos d'Avantaj est sa vaste gamme de
+              vétements : des allées pleines de tout et de tout ce dont vous
+              pourriez avoir besoin ou envie ;
+              <div className={stylesMobile.imageContainer}>
+                <Image className={stylesMobile.image} src={image5} alt="Mode" />
+              </div>
+            </div>
+            <div className={stylesMobile.text}>
+              vous ne venez peut- étre que pour un chapeau ou un bracelet mais
+              repartez avec trois nouvelles tenues prétes å étre portées !
+              Dites-le å vos amis et partez en friperie un samedi lorsqu 'ils se
+              réapprovisionnent, et soyez å I 'affüt des noms de marque, car il
+              se peut qu 'il y en ait de cachés lå-dedans ! Localise pres de
+              notre lycee se trouve Avantaj, un magasin dloccasion populaire
+              parmi les adolescents intéressés par la mode, mais avec un petit
+              budget. Son nom ne trompe pas : c'est sür qu'il est avantageux !
+              Des vétements géniaux et durables pour pas cher !
+            </div>
+
+            <div className={stylesMobile.empty}></div>
+
+            <div className={stylesMobile.subTitle}>
+              <b>Trucs et astuces</b>
+            </div>
+
+            <div className={stylesMobile.empty}></div>
+
+            <div className={stylesMobile.text}>
+              <b>
+                1. Ne mélangez pas les motifs, cela rendra votre tenue cheap.
+              </b>
+            </div>
+            <div className={stylesMobile.imageContainer}>
+              <Image className={stylesMobile.image} src={image6} alt="Mode" />
+            </div>
+            <div className={stylesMobile.text}>
+              {" "}
+              <b>au alors</b>
+            </div>
+
+            <div className={stylesMobile.imageContainer}>
+              <Image className={stylesMobile.image} src={image7} alt="Mode" />
+            </div>
+
+            <div className={stylesMobile.empty}></div>
+
+            <div className={stylesMobile.text}>
+              <b>
+                2. La couleur de Ia ceinture doit correspondre celle des
+                chaussures.
+              </b>
+            </div>
+            <div className={stylesMobile.imageContainer}>
+              <Image className={stylesMobile.image} src={image8} alt="Mode" />
+            </div>
+
+            <div className={stylesMobile.empty}></div>
+
+            <div className={stylesMobile.text}>
+              <b>
+                3. Pour une tenue élégante, essayez de ne pas porter plus de
+                trois couleurs Ia fois.
+              </b>
+            </div>
+            <div className={stylesMobile.imageContainer}>
+              <Image className={stylesMobile.image} src={image9} alt="Mode" />
+            </div>
+
+            <div className={stylesMobile.empty}></div>
+
+            <div className={stylesMobile.text}>
+              <b>
+                4. Si vous portez votre chemise dans votre pantalon, vous devez
+                également avoir une ceinture.
+              </b>
+            </div>
+            <div className={stylesMobile.imageContainer}>
+              <Image className={stylesMobile.image} src={image10} alt="Mode" />
+            </div>
           </div>
         </div>
       </>
