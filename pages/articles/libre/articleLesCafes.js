@@ -47,7 +47,7 @@ export default function Article() {
                   <b>1. Opera</b>
                 </div>
                 Cafe Opera, situé au 33. rue Octav Onicescu, est l'endroit idéal
-                pour des réunions entre amis, car vous avez å la fois une
+                pour des réunions entre amis, car vous avez à la fois une
                 atmosphere accueillante et un personnel amical, ainsi que de
                 délicieuses collations et boissons. L'endroit est tres élégant,
                 avec une terrasse spacieuse pour les journées chaudes et un
@@ -77,7 +77,7 @@ export default function Article() {
                 pour son ambiance agréable et ses délicieuses collations et
                 boissons, qui en font l'endroit idéal pour des rencontres entre
                 amis, il est situé proximité du Collége National "A.T. Laurian",
-                sur la rue Cuza Vodå 13. Comme dans le cas du café Opera, å
+                sur la rue Cuza Vodå 13. Comme dans le cas du café Opera, à
                 l'intérieur vous pouvez trouver de nombreux jeux que vous pouvez
                 emprunter, certains événements locaux sont également organisés
                 ici.
@@ -185,7 +185,7 @@ export default function Article() {
                 <b>1. Opera</b>
               </div>
               Cafe Opera, situé au 33. rue Octav Onicescu, est l'endroit idéal
-              pour des réunions entre amis, car vous avez å la fois une
+              pour des réunions entre amis, car vous avez à la fois une
               atmosphere accueillante et un personnel amical, ainsi que de
               délicieuses collations et boissons. L'endroit est tres élégant,
               avec une terrasse spacieuse pour les journées chaudes et un espace
@@ -213,7 +213,7 @@ export default function Article() {
               son ambiance agréable et ses délicieuses collations et boissons,
               qui en font l'endroit idéal pour des rencontres entre amis, il est
               situé proximité du Collége National "A.T. Laurian", sur la rue
-              Cuza Vodå 13. Comme dans le cas du café Opera, å l'intérieur vous
+              Cuza Vodå 13. Comme dans le cas du café Opera, à l'intérieur vous
               pouvez trouver de nombreux jeux que vous pouvez emprunter,
               certains événements locaux sont également organisés ici.
             </div>

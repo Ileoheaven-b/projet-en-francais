@@ -22,13 +22,19 @@
   column-rule: thin solid black;
 }
 
+.rowContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .articleSide {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   background-color: var(--transparent);
   padding: 8px;
-  padding-bottom: 0px;
+  padding-bottom: 10px;
   user-select: none;
   text-decoration: none;
 }
@@ -40,9 +46,9 @@
   border-radius: 18px;
   background-color: var(--white-color);
   padding: 8px;
+  margin-bottom: 20px;
   user-select: none;
-  text-decoration: none;
-  
+  text-decoration: none; 
 }
 
 .articleCenter:hover {
@@ -81,6 +87,7 @@
   width: 96%;
   border: 0px;
   margin: 0px;
+  margin-top: 20px;
 }
 
 .verticalBar {
